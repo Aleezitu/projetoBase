@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "HelperStockBeta.Application/1.0.0": {
+        "dependencies": {
+          "HelperStockBeta.Domain": "1.0.0"
+        },
+        "runtime": {
+          "HelperStockBeta.Application.dll": {}
+        }
+      },
+      "HelperStockBeta.Data/1.0.0": {
+        "runtime": {
+          "HelperStockBeta.Data.dll": {}
+        }
+      },
+      "HelperStockBeta.Domain/1.0.0": {
+        "dependencies": {
+          "HelperStockBeta.Data": "1.0.0"
+        },
+        "runtime": {
+          "HelperStockBeta.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HelperStockBeta.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HelperStockBeta.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HelperStockBeta.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

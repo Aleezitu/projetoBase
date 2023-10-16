@@ -1,0 +1,12 @@
+C:\Repositories\projetoBase\HelperStockBeta\HelperStockBeta.Data\bin\Debug\net6.0\HelperStockBeta.Data.deps.json
+C:\Repositories\projetoBase\HelperStockBeta\HelperStockBeta.Data\bin\Debug\net6.0\HelperStockBeta.Data.dll
+C:\Repositories\projetoBase\HelperStockBeta\HelperStockBeta.Data\bin\Debug\net6.0\HelperStockBeta.Data.pdb
+C:\Repositories\projetoBase\HelperStockBeta\HelperStockBeta.Data\obj\Debug\net6.0\HelperStockBeta.Data.csproj.AssemblyReference.cache
+C:\Repositories\projetoBase\HelperStockBeta\HelperStockBeta.Data\obj\Debug\net6.0\HelperStockBeta.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositories\projetoBase\HelperStockBeta\HelperStockBeta.Data\obj\Debug\net6.0\HelperStockBeta.Data.AssemblyInfoInputs.cache
+C:\Repositories\projetoBase\HelperStockBeta\HelperStockBeta.Data\obj\Debug\net6.0\HelperStockBeta.Data.AssemblyInfo.cs
+C:\Repositories\projetoBase\HelperStockBeta\HelperStockBeta.Data\obj\Debug\net6.0\HelperStockBeta.Data.csproj.CoreCompileInputs.cache
+C:\Repositories\projetoBase\HelperStockBeta\HelperStockBeta.Data\obj\Debug\net6.0\HelperStockBeta.Data.dll
+C:\Repositories\projetoBase\HelperStockBeta\HelperStockBeta.Data\obj\Debug\net6.0\refint\HelperStockBeta.Data.dll
+C:\Repositories\projetoBase\HelperStockBeta\HelperStockBeta.Data\obj\Debug\net6.0\HelperStockBeta.Data.pdb
+C:\Repositories\projetoBase\HelperStockBeta\HelperStockBeta.Data\obj\Debug\net6.0\ref\HelperStockBeta.Data.dll
