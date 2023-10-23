@@ -2,41 +2,46 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "HelperStockBeta.Data/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/HelperStockBeta.Data.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/HelperStockBeta.Data.dll": {}
-        }
-      },
       "HelperStockBeta.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "HelperStockBeta.Data": "1.0.0"
+          "HelperStockBeta.Infra.IoC": "1.0.0"
         },
         "compile": {
           "bin/placeholder/HelperStockBeta.Domain.dll": {}
         },
         "runtime": {
           "bin/placeholder/HelperStockBeta.Domain.dll": {}
+        }
+      },
+      "HelperStockBeta.Infra.IoC/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "HelperStockBeta.Application": "1.0.0",
+          "HelperStockBeta.Domain": "1.0.0",
+          "HelperStockBeta.Infra.IoC": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HelperStockBeta.Infra.IoC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HelperStockBeta.Infra.IoC.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "HelperStockBeta.Data/1.0.0": {
-      "type": "project",
-      "path": "../HelperStockBeta.Data/HelperStockBeta.Data.csproj",
-      "msbuildProject": "../HelperStockBeta.Data/HelperStockBeta.Data.csproj"
-    },
     "HelperStockBeta.Domain/1.0.0": {
       "type": "project",
       "path": "../HelperStockBeta.Domain/HelperStockBeta.Domain.csproj",
       "msbuildProject": "../HelperStockBeta.Domain/HelperStockBeta.Domain.csproj"
+    },
+    "HelperStockBeta.Infra.IoC/1.0.0": {
+      "type": "project",
+      "path": "../HelperStockBeta.Data/HelperStockBeta.Data.csproj",
+      "msbuildProject": "../HelperStockBeta.Data/HelperStockBeta.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -111,5 +116,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1108",
+      "level": "Error",
+      "message": "Ciclo detectado. \r\n  HelperStockBeta.Application -> HelperStockBeta.Domain -> HelperStockBeta.Infra.IoC -> HelperStockBeta.Infra.IoC.",
+      "libraryId": "HelperStockBeta.Infra.IoC",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

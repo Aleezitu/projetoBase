@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "H2RcgH6PmcGrcOrhZ7bynhJPq/Ap2RgjxGmCMSBgP0iTNhGGCMWrbHJEtf+7bw6CkzCH7DhYRKJvRFz0znjlJw==",
-  "success": true,
+  "dgSpecHash": "qP1r8e5XdEmHugacEctMYfT/vZYpNWYbxF7/egIxFzmpd0FbMx60eXG+V/BC9Jk8N9WgQKPLn+0qcVwgRtqsTQ==",
+  "success": false,
   "projectFilePath": "C:\\Repositories\\projetoBase\\HelperStockBeta\\HelperStockBeta.WebUI\\HelperStockBeta.WebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\2971392221041\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.0.0\\microsoft.aspnetcore.mvc.razor.extensions.3.0.0.nupkg.sha512",
@@ -30,6 +30,15 @@
       "libraryId": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation",
       "targetGraphs": [
         ".NETCoreApp,Version=v6.0"
+      ]
+    },
+    {
+      "code": "NU1108",
+      "level": "Error",
+      "message": "Ciclo detectado. \r\n  HelperStockBeta.WebUI -> HelperStockBeta.Infra.IoC -> HelperStockBeta.Infra.IoC.",
+      "libraryId": "HelperStockBeta.Infra.IoC",
+      "targetGraphs": [
+        "net6.0"
       ]
     }
   ]

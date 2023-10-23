@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "dnWYhlYSq05qZOHEWZkcRFCJfw2Fk9ffbUaDdgBegUuvrKnnPDBnFPDV5DrDuO57/xxCLc8EHWJ58w5pOdWyEA==",
-  "success": true,
+  "dgSpecHash": "f00yGXIFaBlAtXXBhZbRDZT/GvfCs55UL8vh68vVYOQMVISfNVwNNAMLZrhyPXTr1FdRBldvlFXiFSVMuWtj0A==",
+  "success": false,
   "projectFilePath": "C:\\Repositories\\projetoBase\\HelperStockBeta\\HelperStockBeta.Application\\HelperStockBeta.Application.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1108",
+      "level": "Error",
+      "message": "Ciclo detectado. \r\n  HelperStockBeta.Application -> HelperStockBeta.Domain -> HelperStockBeta.Infra.IoC -> HelperStockBeta.Infra.IoC.",
+      "libraryId": "HelperStockBeta.Infra.IoC",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

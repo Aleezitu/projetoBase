@@ -327,21 +327,11 @@
           "bin/placeholder/HelperStockBeta.Application.dll": {}
         }
       },
-      "HelperStockBeta.Data/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/HelperStockBeta.Data.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/HelperStockBeta.Data.dll": {}
-        }
-      },
       "HelperStockBeta.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "HelperStockBeta.Data": "1.0.0"
+          "HelperStockBeta.Infra.IoC": "1.0.0"
         },
         "compile": {
           "bin/placeholder/HelperStockBeta.Domain.dll": {}
@@ -355,8 +345,8 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "HelperStockBeta.Application": "1.0.0",
-          "HelperStockBeta.Data": "1.0.0",
-          "HelperStockBeta.Domain": "1.0.0"
+          "HelperStockBeta.Domain": "1.0.0",
+          "HelperStockBeta.Infra.IoC": "1.0.0"
         },
         "compile": {
           "bin/placeholder/HelperStockBeta.Infra.IoC.dll": {}
@@ -741,11 +731,6 @@
       "path": "../HelperStockBeta.Application/HelperStockBeta.Application.csproj",
       "msbuildProject": "../HelperStockBeta.Application/HelperStockBeta.Application.csproj"
     },
-    "HelperStockBeta.Data/1.0.0": {
-      "type": "project",
-      "path": "../HelperStockBeta.Data/HelperStockBeta.Data.csproj",
-      "msbuildProject": "../HelperStockBeta.Data/HelperStockBeta.Data.csproj"
-    },
     "HelperStockBeta.Domain/1.0.0": {
       "type": "project",
       "path": "../HelperStockBeta.Domain/HelperStockBeta.Domain.csproj",
@@ -849,6 +834,15 @@
       "libraryId": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation",
       "targetGraphs": [
         ".NETCoreApp,Version=v6.0"
+      ]
+    },
+    {
+      "code": "NU1108",
+      "level": "Error",
+      "message": "Ciclo detectado. \r\n  HelperStockBeta.WebUI -> HelperStockBeta.Infra.IoC -> HelperStockBeta.Infra.IoC.",
+      "libraryId": "HelperStockBeta.Infra.IoC",
+      "targetGraphs": [
+        "net6.0"
       ]
     }
   ]
